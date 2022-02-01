@@ -1,4 +1,6 @@
-def hello():
-  return "Hello world!"
+def hello(name):
+  return f"Hello {name}!"
 
-print(hello())
+name = input("Name: ")
+
+print(hello(name))
